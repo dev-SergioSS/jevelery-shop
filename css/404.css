@@ -1,0 +1,115 @@
+.er-404 {
+  padding: 35px 25px;
+}
+
+.er-404__head {
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgba(201, 165, 140, 0.4);
+  width: 100%;
+  text-align: center;
+}
+
+.er-404__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Cormorant;
+}
+
+.er-404 h1 {
+  font-size: 300px;
+  line-height: 363px;
+  margin-top: -63px;
+  color: #c9a58c;
+  background: url("../img/er404-bg.png") center 160px/93px 117px no-repeat;
+}
+
+.er-404 strong {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 400;
+}
+
+.er-404 p {
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 35px;
+  max-width: 335px;
+  text-align: center;
+}
+
+.er-404__links a {
+  margin: 0 37px;
+}
+
+.er-404__links a.custom-btn_w {
+  background-color: #fff;
+  border: 1px solid #8a3b05;
+}
+
+.er-404__links a.custom-btn_w:hover {
+  background: #402310;
+  color: #f7dcc2;
+}
+
+.er-404__links a.custom-btn_w:hover::before {
+  border: 1px solid #c9a58c;
+}
+
+@media (max-width: 768px) {
+  .er-404__head {
+    border: none;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .er-404 {
+    padding: 40px 25px;
+  }
+
+  .er-404 h1 {
+    font-size: 200px;
+    line-height: 242px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    background: url("../img/er404-bg.png") center 107px/57px 78px no-repeat;
+  }
+
+  .er-404 strong {
+    font-size: 34px;
+    line-height: 41px;
+  }
+
+  .er-404 p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+
+  .er-404__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .er-404__links a {
+    margin: 0 0 20px;
+  }
+}
