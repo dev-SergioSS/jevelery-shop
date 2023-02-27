@@ -1272,6 +1272,48 @@ main::before {
   z-index: -1;
 }
 
+.btn-w {
+  border: 1px solid #c9a58c;
+  background: #fff;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.btn-w:hover {
+  background: #402310;
+  color: #f7dcc2;
+}
+
+.btn-bl {
+  background: #402310;
+  color: #f7dcc2;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.btn-bl:hover {
+  -webkit-box-shadow: 0px 0px 30px rgba(201, 165, 140, 0.25);
+          box-shadow: 0px 0px 30px rgba(201, 165, 140, 0.25);
+  -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.btn-p {
+  background: #f7dcc2;
+  color: #402310;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.btn-p:hover {
+  background: #402310;
+  color: #f7dcc2;
+}
+
 @media (max-width: 1210px) {
   .container {
     max-width: 100%;
@@ -1373,6 +1415,12 @@ main::before {
     font-size: 14px;
     line-height: 17px;
     color: #000000;
+    white-space: normal;
+  }
+
+  .header__tab-link span:hover {
+    text-shadow: none;
+    font-weight: 600;
   }
 
   .header__tab-link span::before {

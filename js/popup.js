@@ -1,7 +1,7 @@
 // ---------------------------POPUPS---------------------------
 
 const popupLinks = document.querySelectorAll('.popup-link');
-const popupCloseIcon = document.querySelectorAll('.popup__close');
+const popupCloseIcon = document.querySelectorAll('.popup__btn-close');
 
 
 // Если модалок много, скрипт открывает только одну по id
